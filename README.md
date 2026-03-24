@@ -6,8 +6,8 @@ El enfoque principal fue realizar un proceso de **extracción selectiva mediante
 
 ## 📂 Recursos del Proyecto
 * **Dataset Utilizado:** https://github.com/sebaaa16/Olist-ecommerce-analisis/tree/main/Data
-* **Herramientas:** PostgreSQL (pgAdmin 4), Power BI Desktop, DAX.
-* **Técnicas:** Consultas SQL (Joins, Agregaciones), Modelado de datos y Diseño de UI/UX.
+* **Herramientas:** PostgreSQL (pgAdmin 4), Power BI Desktop.
+* **Técnicas:** Consultas SQL (Joins, Agregaciones), Modelado de datos.
 
 ## ❓ Preguntas de Negocio Resueltas (KPIs)
 Siguiendo un enfoque de análisis de datos profesional, el dashboard responde a:
