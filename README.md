@@ -13,7 +13,7 @@ El enfoque principal fue realizar un proceso de **extracción selectiva mediante
 Siguiendo un enfoque de análisis de datos profesional, el dashboard responde a:
 
 1.  **Salud Financiera (KPIs):** ¿Cuál es el total de Ventas, la cantidad de Pedidos y el Ticket Promedio?
-    * *Solución:* Implementación de **Cards (Tarjetas)** dinámicas con medidas DAX.
+    * *Solución:* Implementación de **Cards (Tarjetas)** dinámicas.
 2.  **Rendimiento por Categoría:** ¿Qué categorías dominan el mercado y cuáles generan más ingresos?
     * *Solución:* **Gráfico de barras agrupadas** para contrastar el volumen de ventas por categoría.
 3.  **Análisis Geográfico:** ¿Cómo se distribuyen los pedidos a lo largo del territorio nacional brasileño?
@@ -27,13 +27,11 @@ Aca podes ver el resultado de la visualización:
 https://github.com/sebaaa16/Olist-ecommerce-analisis/blob/main/Img/Dashboard.PNG
 
 ## 🛠️ Mi Proceso de Trabajo (SQL & ETL)
-## 🛠️ Mi Proceso de Trabajo (SQL & ETL)
 A diferencia de una importación simple, optimicé el modelo de datos desde la fuente para asegurar la exactitud y velocidad del reporte:
 
 * **Extracción con SQL:** En lugar de cargar tablas masivas, desarrollé **5 scripts independientes** en PostgreSQL para filtrar, transformar y agrupar los datos necesarios (disponibles en la carpeta `/sql`).
-* **Limpieza y Tipado:** Ajusté formatos de fecha y monedas, asegurando que columnas como `price` y `freight_value` fueran tratadas como valores numéricos precisos.
+* **Limpieza y Tipado:** Ajusté formatos de fecha y monedas, asegurando que algunas columnas fueran tratadas como valores numéricos precisos.
 * **Procesamiento de KPIs:** Calculé métricas fundamentales como el Ticket Promedio y Totales de Venta directamente en el motor de base de datos para optimizar el rendimiento del tablero.
-* **UI/UX:** Diseñé una distribución limpia con filtros superiores para permitir una navegación fluida por región, año y categoría.
 
 ## 💡 Insights Clave
 1. **Dominio Geográfico:** El estado de **São Paulo** concentra el mayor volumen de facturación, lo que valida la importancia de la logística centralizada en el Sudeste.
