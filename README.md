@@ -13,7 +13,7 @@ El enfoque principal fue realizar un proceso de **extracción selectiva mediante
 Siguiendo un enfoque de análisis de datos profesional, el dashboard responde a:
 
 1.  **Salud Financiera (KPIs):** ¿Cuál es el total de Ventas, la cantidad de Pedidos y el Ticket Promedio?
-    * *Solución:* Implementación de **Cards (Tarjetas)** dinámicas.
+    * *Solución:* Implementación de **Tarjetas** dinámicas.
 2.  **Rendimiento por Categoría:** ¿Qué categorías dominan el mercado y cuáles generan más ingresos?
     * *Solución:* **Gráfico de barras agrupadas** para contrastar el volumen de ventas por categoría.
 3.  **Análisis Geográfico:** ¿Cómo se distribuyen los pedidos a lo largo del territorio nacional brasileño?
